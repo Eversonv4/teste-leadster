@@ -1,4 +1,6 @@
 export const Theme = {
   colors: {},
-  fonts: {},
+  fonts: {
+    jakarta: "Plus Jakarta Sans",
+  },
 };

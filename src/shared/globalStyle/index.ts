@@ -21,5 +21,7 @@ export const GlobalStyle = createGlobalStyle`
       text-decoration: none;
    }
 
-   body {}
+   body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+   }
 `;

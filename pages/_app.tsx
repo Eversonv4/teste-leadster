@@ -15,7 +15,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="Conheça a Leadster, um Chatbot de Marketing Conversacional para Aumentar a Geração de Leads Qualificados no seu Site. Visite e saiba mais!"
         />
         <meta name="author" content="Leadster" />
-        <link rel="icon" href="/favicon.png" />
       </Head>
       <Component {...pageProps} />
     </ThemeProvider>

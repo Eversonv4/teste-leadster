@@ -15,7 +15,7 @@ export const HighlightText = styled.h2`
   font-size: 1rem;
   line-height: 1.125rem;
 
-  font-weight: 700;
+  font-weight: 800;
   color: ${({ theme }) => theme.colors.primary_blue};
 
   border: 2px solid ${({ theme }) => theme.colors.primary_blue};

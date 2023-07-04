@@ -4,7 +4,7 @@ import Image from "next/image";
 export function LeadSection() {
   return (
     <SectionContainer>
-      <HighlightText>WEBNARS EXCLUSIVOS</HighlightText>
+      <HighlightText>WEBINARS EXCLUSIVOS</HighlightText>
       <MainTitle>
         Menos Conversinha, <br />
         <strong>

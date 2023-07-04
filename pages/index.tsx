@@ -1,7 +1,7 @@
-import { Header } from "@components/Header";
-import { Footer } from "@components/Footer";
+import { Header } from "@sectionsPage/Header";
+import { Footer } from "@sectionsPage/Footer";
 import type { NextPage } from "next";
-import { Main } from "@components/Main";
+import { Main } from "@sectionsPage/Main";
 
 const Home: NextPage = () => {
   return (

@@ -5,6 +5,8 @@ export const Theme = {
 
     secondary_white: "#ffffff",
 
+    text_dark: "#1c3c50",
+
     border_light: "#c8d4dd",
   },
   fonts: {

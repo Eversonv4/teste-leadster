@@ -16,6 +16,10 @@ export const ContainerBlur = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 600px) {
+    padding: 0 20px;
+  }
 `;
 
 export const ContainerSection = styled.section`
@@ -29,6 +33,17 @@ export const ContainerSection = styled.section`
   padding: 30px 0px;
 
   position: relative;
+
+  @media (max-width: 600px) {
+    max-width: 450px;
+    height: calc(100vh - 20%);
+    overflow: auto;
+  }
+
+  @media (max-width: 363px) {
+    max-width: 450px;
+    height: calc(100vh - 18%);
+  }
 `;
 
 export const CloseIcon = styled(IoMdClose)`
@@ -54,15 +69,26 @@ export const TitleVideoHeader = styled.div`
       color: ${({ theme }) => theme.colors.primary_blue};
     }
 
-    width: 90%;
     margin: 0 auto;
     font-weight: 600;
     text-align: center;
+    font-size: 22px;
     padding: 20px 30px;
   }
 
   & > iframe {
     width: 100%;
+  }
+
+  @media (max-width: 600px) {
+    & > iframe {
+      height: 250px;
+      margin: 10px 0;
+    }
+
+    & > h2 {
+      font-size: 16px;
+    }
   }
 `;
 
@@ -107,6 +133,12 @@ export const DownloadsContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
   }
 `;
 
@@ -167,5 +199,9 @@ export const ExportFilesContainer = styled.div`
     :last-child {
       margin-bottom: 0;
     }
+  }
+
+  @media (max-width: 1020px) {
+    display: none;
   }
 `;

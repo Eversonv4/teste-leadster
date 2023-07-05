@@ -24,12 +24,29 @@ export const MediaHeader = styled.div`
     display: flex;
     align-items: center;
   }
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  @media (max-width: 690px) {
+    gap: 10px;
+    padding: 0 20px;
+
+    & > div {
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+  }
 `;
 
 export const ButtonCategory = styled.button<IButtonActiveProps>`
   font-size: 14px;
   font-family: ${({ theme }) => theme.fonts.jakarta};
   font-weight: 600;
+  width: max-content;
 
   cursor: pointer;
   transition: 0.3s ease-in-out;
@@ -51,6 +68,10 @@ export const ButtonCategory = styled.button<IButtonActiveProps>`
     border-color: ${({ theme }) => theme.colors.primary_blue};
     color: ${({ theme, isActive }) =>
       isActive ? theme.colors.secondary_white : theme.colors.primary_blue};
+  }
+
+  @media (max-width: 690px) {
+    margin-right: 5px;
   }
 `;
 
@@ -86,6 +107,10 @@ export const SetOrderContainer = styled.div`
     font-size: 14px;
     font-weight: 400;
   }
+
+  @media (max-width: 690px) {
+    margin-bottom: 30px;
+  }
 `;
 
 export const ArrowDownSelect = styled(IoMdArrowDropdown)`
@@ -97,6 +122,11 @@ export const ArrowDownSelect = styled(IoMdArrowDropdown)`
   font-size: 20px;
 
   color: ${({ theme }) => theme.colors.text_dark};
+
+  @media (max-width: 326px) {
+    top: 46px;
+    right: 65px;
+  }
 `;
 
 export const PaginationContainer = styled.div`

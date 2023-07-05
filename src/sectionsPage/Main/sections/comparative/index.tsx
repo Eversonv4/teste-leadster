@@ -42,11 +42,15 @@ export function ComparativeSection() {
             />
           </SealContainer>
           <RatingTitle>
-            <img src="/assets/company/no-card-dark.webp" alt="no card icon" />
-            Não é necessário Cartão de Crédito
+            <p>
+              <img src="/assets/company/no-card-dark.webp" alt="no card icon" />
+              Não é necessário Cartão de Crédito
+            </p>
             <span> | </span>
-            <img src="/assets/company/rating.webp" alt="rating" />
-            4.9/5 média de satisfação
+            <p>
+              <img src="/assets/company/rating.webp" alt="rating" />
+              4.9/5 média de satisfação
+            </p>
           </RatingTitle>
         </DetailsContainer>
       </ContainerLayout>

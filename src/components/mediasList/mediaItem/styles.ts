@@ -47,6 +47,15 @@ export const BgImageContainer = styled.div`
 
     background-color: ${({ theme }) => theme.colors.primary_blue + "66"};
   }
+
+  @media (max-width: 868px) {
+    min-height: 150px;
+    background-size: cover;
+  }
+
+  @media (max-width: 754px) {
+    min-height: 180px;
+  }
 `;
 
 export const PlayIcon = styled(FaPlay)`
@@ -74,5 +83,9 @@ export const TitleMediaContainer = styled.div`
 
     max-height: 60px;
     max-width: 313px;
+  }
+
+  @media (max-width: 868px) {
+    height: 55%;
   }
 `;

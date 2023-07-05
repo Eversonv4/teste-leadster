@@ -26,28 +26,52 @@ export function Footer() {
         <div>
           <h3>Links Principais</h3>
           <ul>
-            <li>Home</li>
-            <li>Ferramenta</li>
-            <li>Preços</li>
-            <li>Contato</li>
+            <li>
+              <p>Home</p>
+            </li>
+            <li>
+              <p>Ferramenta</p>
+            </li>
+            <li>
+              <p>Preços</p>
+            </li>
+            <li>
+              <p>Contato</p>
+            </li>
           </ul>
         </div>
         <div>
           <h3>Cases</h3>
           <ul>
-            <li>Geração de Leads B2B</li>
-            <li>Geração de Leads em Software</li>
-            <li>Geração de Leads em Imobilária</li>
-            <li>Cases de Suesso</li>
+            <li>
+              <p>Geração de Leads B2B</p>
+            </li>
+            <li>
+              <p>Geração de Leads em Software</p>
+            </li>
+            <li>
+              <p>Geração de Leads em Imobilária</p>
+            </li>
+            <li>
+              <p>Cases de Suesso</p>
+            </li>
           </ul>
         </div>
         <div>
           <h3>Materiais</h3>
           <ul>
-            <li>Blog</li>
-            <li>Parceria com Agências</li>
-            <li>Gua Definitivo do Marketing</li>
-            <li>Materiais Gratuitos</li>
+            <li>
+              <p>Blog</p>
+            </li>
+            <li>
+              <p>Parceria com Agências</p>
+            </li>
+            <li>
+              <p>Gua Definitivo do Marketing</p>
+            </li>
+            <li>
+              <p>Materiais Gratuitos</p>
+            </li>
           </ul>
         </div>
         <div>
@@ -66,8 +90,12 @@ export function Footer() {
                 </button>
               </IconsContainer>
             </li>
-            <li>E-mail: contato@leadster.com.br</li>
-            <li>Telefone: (42) 98828-9851</li>
+            <li>
+              <p>E-mail: contato@leadster.com.br</p>
+            </li>
+            <li>
+              <p>Telefone: (42) 98828-9851</p>
+            </li>
           </ul>
         </div>
       </FooterLinksContainer>

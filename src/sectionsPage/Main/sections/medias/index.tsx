@@ -84,7 +84,7 @@ export function MediasSection() {
 
   useEffect(() => {
     init();
-  }, [currentOrderMedias]);
+  }, [currentOrderMedias, listPaginations]);
 
   return (
     <MediaContainer>

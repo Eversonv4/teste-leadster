@@ -10,9 +10,9 @@ import {
 } from "./styles";
 import { MediasList } from "@components/mediasList/List";
 import { TCategory, TOrderMediasProps } from "./interface";
-import { DummyData, IDummyDataProps } from "dummy_data";
+import { DummyData } from "dummy_data";
 import { LoadingAnimation } from "@components/LoadingAnimation";
-import { IListItemProps } from "@components/mediasList/mediaItem";
+import { IListItemProps } from "@components/mediasList/mediaItem/interface";
 
 export function MediasSection() {
   const [currentCategory, setCurrentCategory] = useState<TCategory>("agencies");
@@ -65,7 +65,9 @@ export function MediasSection() {
       orderedMedias = currentMediaData.sort((a, b) => a.date - b.date);
     } else {
       // @ts-ignore
-      orderedMedias = currentMediaData.sort((a, b) => a.title - b.title);
+      orderedMedias = currentMediaData.sort((a, b) =>
+        a.title.localeCompare(b.title)
+      );
     }
 
     setTimeout(() => {
@@ -82,7 +84,7 @@ export function MediasSection() {
 
   useEffect(() => {
     init();
-  }, [currentMediaData, currentOrderMedias]);
+  }, [currentOrderMedias]);
 
   return (
     <MediaContainer>

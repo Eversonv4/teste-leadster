@@ -9,8 +9,7 @@ export const Theme = {
 
     border_light: "#c8d4dd",
 
-    success: "#00ae7f",
-    atention: "#a68e1c",
+    dark_gray: "#858da8",
   },
   fonts: {
     jakarta: "Plus Jakarta Sans",

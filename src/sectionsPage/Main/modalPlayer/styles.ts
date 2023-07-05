@@ -26,7 +26,7 @@ export const ContainerSection = styled.section`
   background-color: ${({ theme }) => theme.colors.secondary_white};
   border-radius: 18px;
 
-  height: calc(100vh - 25%);
+  height: calc(100vh - 10%);
   max-width: 600px;
   width: 100%;
 
@@ -73,7 +73,7 @@ export const TitleVideoHeader = styled.div`
     font-weight: 600;
     text-align: center;
     font-size: 22px;
-    padding: 20px 30px;
+    padding: 20px;
   }
 
   & > iframe {

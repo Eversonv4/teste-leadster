@@ -9,7 +9,7 @@ export const HeaderContainer = styled.header`
   animation: ${fadeIn} 0.8s ease-in-out;
 
   & > img {
-    margin: 28px 0;
+    margin: 32px 0;
     width: 170px;
     height: 36px;
   }

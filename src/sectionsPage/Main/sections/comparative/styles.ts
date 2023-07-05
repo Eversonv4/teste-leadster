@@ -1,3 +1,4 @@
+import { slideUp } from "@shared/animations/styles";
 import styled from "styled-components";
 
 export const ComparativeContainer = styled.section`
@@ -34,6 +35,8 @@ export const ContainerLayout = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  animation: ${slideUp} 0.8s ease-in-out;
 `;
 
 export const DetailsContainer = styled.div`

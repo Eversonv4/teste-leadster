@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { IListItemProps, MediaItem } from "../mediaItem";
+import { IListItemProps } from "../mediaItem/interface";
 import { MediaListContainer } from "./styles";
 import { IMediaListProps } from "./interface";
+import { MediaItem } from "../mediaItem";
 
 export function MediasList({
   DataList,

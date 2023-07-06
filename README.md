@@ -43,24 +43,21 @@ Dentro da pasta `src` encontram-se as pastas `components`, `sectionsPage` e `sha
 <ul>
   <li>
     <h2>components</h2>
-
-    Dentro de "components" encontramos pequenos itens que se repetem ou que podem se repetir ao longo do projeto e são separados e escritos de forma que possam ser reutilizados
+    <p>
+      Dentro de "components" encontramos pequenos itens que se repetem ou que podem se repetir ao longo do projeto e são separados e escritos de forma que possam ser reutilizados
+    </p>
 
   </li>
   <li>
     <h2>sectionsPage</h2>
-
-    Pensando justamente na composição de uma landing page que constitui-se de diferentes seções com demais conteúdos. O projeto foi pensado desde o início em seguir as práticas de SEO, meta tags, boas práticas de escrita de código e acessiblidade, além de fazer uso da performance fornecida pelo NextJS.
-
-    A organização das seções foi pensada em três partes principais: header, main e footer. E dentro de cada um desses componentes principais, foi adicionado demais componentes, elementos e seções pertencentes à cada um desses três elementos majoritários.
+    <p>Pensando justamente na composição de uma landing page que constitui-se de diferentes seções com demais conteúdos. O projeto foi pensado desde o início em seguir as práticas de SEO, meta tags, boas práticas de escrita de código e acessiblidade, além de fazer uso da performance fornecida pelo NextJS.</p>
+    <p>A organização das seções foi pensada em três partes principais: header, main e footer. E dentro de cada um desses componentes principais, foi adicionado demais componentes, elementos e seções pertencentes à cada um desses três elementos majoritários.</p>
 
   </li>
   <li>
     <h2>shared</h2>
-
-    Dentro de "shared" temos os conteúdos globais ao projeto e demais serviços. Dentro desse item alocamos os estilos globais ao projeto e um tema personalizado de acordo com o padrão de cores e fontes escolhidas para o projeto. Permitindo assim a padronização do projeto, assim como possíveis manutenções e alterações na aparência do projeto como um todo.
-
-    Dentro de "shared", além dos estilos, temas e serviços, também adicionamos efeitos de animações padrões que possam ser reutilizadas nos demais elementos html com muita praticidade.
+    <p>Dentro de "shared" temos os conteúdos globais ao projeto e demais serviços. Dentro desse item alocamos os estilos globais ao projeto e um tema personalizado de acordo com o padrão de cores e fontes escolhidas para o projeto. Permitindo assim a padronização do projeto, assim como possíveis manutenções e alterações na aparência do projeto como um todo. </p>
+    <p>Dentro de "shared", além dos estilos, temas e serviços, também adicionamos efeitos de animações padrões que possam ser reutilizadas nos demais elementos html com muita praticidade.</p>
 
   </li>
 </ul>
